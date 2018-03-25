@@ -1,5 +1,4 @@
 #include <iostream>
-#include <set>
 #include <vector>
 using namespace std;
 
@@ -21,8 +20,6 @@ bool valid(int i1, int i2, int i3, int i4, int i5, int i6, int i7, int i8, int i
 
 int main()
 {
-    vector<string> v{"taronger", "llimoner", "res"};
-
     int count = 0;
     for (int i1 = 0; i1 < 3; ++i1)
       for (int i2 = 0; i2 < 3; ++i2)
